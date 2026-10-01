@@ -23,7 +23,7 @@ The site is a single HTML file with no build step, no JavaScript framework, and 
 - `index.html` — all content and inline JS (only a `copyEmail()` function for clipboard)
 - `style.css` — all styling; uses CSS custom properties defined in `:root`
 - `assets/images/MyImage.jpg` — profile photo
-- `assets/Alamin_Sarker_CV_PhD_NLP.pdf` — linked CV
+- `assets/Alamin_Sarker_CV_NLP.pdf` — linked CV
 
 ## Layout
 
