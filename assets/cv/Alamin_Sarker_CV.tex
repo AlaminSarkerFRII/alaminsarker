@@ -1,0 +1,78 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.7in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{accent}{HTML}{1F3A68}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1.2em, itemsep=2pt, topsep=3pt, parsep=0pt}
+\linespread{1.08}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\color{accent}\rule{\linewidth}{0.5pt}]
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+
+\newcommand{\entry}[3]{\textbf{#1}\ \textbar\ #2 \hfill \textit{#3}\par}
+\newcommand{\link}[2]{\href{#1}{\color{accent}#2}}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries\color{accent} Alamin Sarker}\\[3pt]
+  Prospective Ph.D. Student --- Natural Language Processing \& Machine Learning\\[3pt]
+  Dhaka, Bangladesh \ \textbullet\ \
+  \link{mailto:alamin.sarker4241@gmail.com}{alamin.sarker4241@gmail.com} \ \textbullet\ \
+  +880 1740051568\\[2pt]
+  Portfolio: \link{https://alaminsarkerfrii.github.io/alaminsarker/}{alaminsarkerfrii.github.io/alaminsarker} \ \textbullet\ \
+  GitHub: \link{https://github.com/AlaminSarkerFRII}{AlaminSarkerFRII} \ \textbullet\ \
+  LinkedIn: \link{https://www.linkedin.com/in/alamin-sarker-b2676522a/}{alamin-sarker}
+\end{center}
+
+\section{Research Interests}
+Natural Language Processing; Low-Resource Language Processing (Bangla NLP); Entity Linking;
+Machine Learning \& Data-Efficient, Resource-Aware Learning; Data Science; Robotics.
+
+\section{Education}
+\entry{B.Sc. in Computer Science and Engineering}{Bangladesh University, Dhaka}{Completed Jan.\ 2026}
+CGPA: \textbf{3.77 / 4.00}
+
+\section{Research Experience}
+\entry{Undergraduate Researcher, Natural Language Processing}{Bangladesh University}{2024 -- Jan.\ 2026}
+Supervisor: Rasel Khondokar
+\begin{itemize}
+  \item Led research on Bangla entity linking under low-resource, noisy-text conditions, with emphasis on methodological rigor over architecture scaling.
+  \item Investigated how annotation ambiguity and representation choices affect entity disambiguation accuracy.
+  \item Designed empirical evaluation protocols under constrained data and computational budgets.
+\end{itemize}
+
+\section{Publications}
+\begin{itemize}
+  \item \textbf{A.\ Sarker}, ``Bangla Entity Linking in Low-Resource and Noisy Text Settings.'' Manuscript in preparation (target venues: ACL / EMNLP workshops).
+\end{itemize}
+
+\section{Professional Experience}
+\entry{Software Engineer}{Technometrics Limited}{Dec.\ 2022 -- Present}
+\begin{itemize}
+  \item Develop and deploy scalable production systems integrating NLP-based sentiment analysis and topic modeling.
+  \item Containerize and optimize services with Docker to improve deployment reliability and system performance.
+\end{itemize}
+
+\section{Technical Skills}
+\textbf{Programming:} Python, JavaScript, TypeScript\\
+\textbf{Machine Learning / NLP:} Machine Learning, NLP Pipelines, Entity Linking, Information Extraction\\
+\textbf{Data Science:} NumPy, Pandas, Matplotlib\\
+\textbf{Tools \& Systems:} Docker, Linux, Git, Django
+
+\section{Teaching Experience}
+\entry{Founder \& Instructor}{Alhera Coaching Center}{2015 -- 2017}
+\begin{itemize}
+  \item Founded and taught a secondary-level mathematics and science curriculum.
+\end{itemize}
+
+\section{Languages}
+Bangla (Native) \ \textbullet\ \ English (Fluent)
+
+\end{document}
